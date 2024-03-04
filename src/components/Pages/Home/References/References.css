@@ -1,0 +1,97 @@
+.inf{
+    display: flex;
+    justify-content: space-between;
+
+}
+.chart{
+    width: 169px;
+    height: 152px;
+    display: flex;
+    margin: 27px; 
+    border: 4px solid black;  
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.chart li{
+    margin: 0px 1pc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media(max-width:1279px){
+    .inf {
+        font-size: 16px;
+        width: 529px;
+        margin-left: 179px;
+        display: flex;
+        justify-content: left;
+    }
+    .chart {
+        font-size: 15px;
+        width: 165px;
+        height: 171px;
+        display: flex;
+        margin: 27px;
+        border: 4px solid black;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style-type: none;
+        justify-content: center;
+    }
+    .chart li{
+        margin: 0px 1pc;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+  }
+  @media(max-width:920px){
+    .inf {
+        font-size: 16px;
+        width: 469px;;
+        margin-left: 179px;
+        display: flex;
+        justify-content: left;
+    }
+    .chart {
+        font-size: 14px;
+        width: 120px;
+        height: 127px;
+        display: flex;
+        margin: 18px;
+        border: 4px solid black;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style-type: none;
+        justify-content: center;
+    }
+    .chart li{
+        margin: 0px 1pc;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }
+  @media(max-width:768px){
+    .inf {
+        font-size: 16px;
+        width: 278px;
+        margin-left: 179px;
+        display: flex;
+        justify-content: left;
+    }
+    .chart {
+        font-size: 11px;
+        width: 98px;
+        height: 99px;
+        display: flex;
+        margin: 18px;
+        border: 4px solid black;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style-type: none;
+        justify-content: center;
+    }
+    .chart li{
+        margin: 0px 1pc;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }

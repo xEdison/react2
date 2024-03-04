@@ -1,0 +1,163 @@
+/* .Parr{
+    display: flex;
+    justify-content: space-between;
+background-color: rgb(0, 135, 253);
+padding: 20px 0px 0px 10px;
+margin: 0px -42px 42px -159px;
+    margin: 0px;
+
+
+
+}
+.de{
+    margin: 0px;
+    border-radius: 20px solid black;
+} */
+
+.contenedor {
+    display: flex;
+    background-color: rgb(255, 255, 255); /* Color de fondo del contenedor */
+   
+}
+
+.contenedor p {
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+   border-radius: 20px;
+   margin-right: 9px;
+   padding: 0px 0px 0px 199px;
+    background-color: #39a900;
+    position: relative;
+    top: --8px; /* Ajusta el color de fondo con transparencia */
+    
+}
+.Projects{
+    position: relative;
+    border-radius: 0;
+    height: 110px;
+    width: 130px;
+    top: -12px;
+    right: 180px;
+}
+.button {
+    background-color: #39a900;
+    color: black;
+    margin-top: -46px;
+    margin-left: -90px;
+}
+
+@media(max-width:1279px){
+    .contenedor {
+        display: flex;
+        background-color: rgb(255, 255, 255); /* Color de fondo del contenedor */
+        width:  509px;
+       
+    }
+    
+    .contenedor p {
+        display: flex;
+        color: aliceblue;
+        flex-direction: column;
+        border-radius: 20px;
+        margin-right: 7px;
+        padding: 0px 0px 0px 205px;
+        background-color: #39a900;
+        position: relative;
+        top: --8px;
+        
+    }
+    .Projects {
+        position: relative;
+        border-radius: 0;
+        height: 84px;
+        width: 86px;
+        top: -13px;
+        right: 193px;
+    }
+    .button {
+        background-color: #39a900;
+        color: black;
+        margin-top: -46px;
+        margin-left: -156px;
+    }
+  }
+  @media(max-width:920px){
+    .contenedor {
+        display: flex;
+        background-color: rgb(255, 255, 255); /* Color de fondo del contenedor */
+        width:  435px;
+       
+    }
+    
+    .contenedor p {
+        display: flex;
+        color: aliceblue;
+        flex-direction: column;
+        border-radius: 20px;
+        margin-right: 98px;
+        padding: 20px 21px -2px 193px;
+        background-color: #39a900;
+        position: relative;
+        top: 7px;
+        width: 0px;
+        left: 184px;
+    }
+    .Projects {
+        position: relative;
+        border-radius: 3;
+        height: 69px;
+        width: 70px;
+        top: -13px;
+        right: 185px;
+    }
+    .button {
+        background-color: #39a900;
+        color: black;
+        margin-top: -46px;
+        margin-left: -156px;
+    }
+    p{
+        position: relative;
+        right: 100px;
+    }
+  }
+  @media(max-width:768px){
+    .contenedor {
+        display: flex;
+        background-color: rgb(255, 255, 255); /* Color de fondo del contenedor */
+        width:  435px;
+       
+    }
+    
+    .contenedor p {
+        display: flex;
+        color: aliceblue;
+        border-radius: 20px;
+        margin-right: 35px;
+        padding: 20px 21px -2px 193px;
+        background-color: #39a900;
+        position: relative;
+        top: 7px;
+        width: -5px;
+        left: 178px;
+    }
+    .Projects {
+        position: relative;
+        border-radius: 3;
+        height: 69px;
+        width: 70px;
+        top: -13px;
+        right: 185px;
+    }
+    .button {
+        background-color: #39a900;
+        color: black;
+        margin-top: -46px;
+        margin-left: -156px;
+    }
+    p{
+        position: relative;
+        right: 100px;
+    }
+  }

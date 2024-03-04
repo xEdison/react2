@@ -1,0 +1,179 @@
+
+section{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    margin-left: 20%;
+
+    
+}
+.Services{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 15px;
+
+    
+}
+section h1{
+    color: #605c5c;
+    position: relative; /* Establece el posicionamiento relativo para poder posicionar el seudoelemento correctamente */
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 1px;
+    
+    
+  }
+ h1::after { 
+    content: ""; /* Obligatorio para los seudoelementos */ 
+    position: absolute; /* Posiciona el seudoelemento con respecto al texto */ 
+    bottom: -19px; /* Mueve la línea un píxel hacia arriba para solapar la línea del texto */ 
+    left: 1px; /* Comienza la línea desde el inicio del texto */
+    width: 100%; /* Establece la longitud de la línea hasta la mitad del texto */
+    height: 8px; /* Grosor de la línea */
+    background-color: #c8fc94; /* Color de la línea */ 
+    
+  }
+  p{
+    color: #605c5c;
+  }
+  .name{
+    color: #605c5c;
+}
+  @media(max-width:1279px){
+    section{
+        display: contents;
+        color: black;
+        flex-direction: column;
+        margin-left: 0%;
+    
+        
+    }
+    .Services {
+        height: 34px;
+        width: 34px;
+        position: relative;
+        top: 7px;
+    }
+
+    section h1{
+        color: #605c5c;
+        position: relative; /* Establece el posicionamiento relativo para poder posicionar el seudoelemento correctamente */
+        font-size: 30px;
+        margin-top: 1px;
+        left: -50px;
+        top: 15px   ;
+        
+    
+      }
+      
+     h1::after { 
+        content: ""; /* Obligatorio para los seudoelementos */ 
+        position: absolute; /* Posiciona el seudoelemento con respecto al texto */ 
+        bottom: -11px; /* Mueve la línea un píxel hacia arriba para solapar la línea del texto */ 
+        left: 1px; /* Comienza la línea desde el inicio del texto */
+        width: 240%; /* Establece la longitud de la línea hasta la mitad del texto */
+        height: 8px; /* Grosor de la línea */
+        background-color: #c8fc94; /* Color de la línea */ 
+        
+      }
+      p{
+        color: #000000;
+        position: relative;
+        left: 100px;
+        font-size: 12px;
+        
+  }
+  
+  }
+  @media(max-width:920px){
+    section{
+      display: contents;
+      color: black;
+      flex-direction: column;
+      margin-left: 330px;
+  
+      
+  }
+  .Services {
+      height: 24px;
+      width: 24px;
+      position: relative;
+      top: 4px;
+  }
+
+  section h1{
+      color: #605c5c;
+      position: relative; /* Establece el posicionamiento relativo para poder posicionar el seudoelemento correctamente */
+      font-size: 20px;
+      margin-top: 1px;
+      left: -50px;
+      top: 15px   ;
+      
+  
+    }
+    
+   h1::after { 
+      content: ""; /* Obligatorio para los seudoelementos */ 
+      position: absolute; /* Posiciona el seudoelemento con respecto al texto */ 
+      bottom: -11px; /* Mueve la línea un píxel hacia arriba para solapar la línea del texto */ 
+      left: 1px; /* Comienza la línea desde el inicio del texto */
+      width: 240%; /* Establece la longitud de la línea hasta la mitad del texto */
+      height: 8px; /* Grosor de la línea */
+      background-color: #c8fc94; /* Color de la línea */ 
+      
+    }
+    p {
+      margin-left: -83px;
+      color: #000000;
+      position: relative;
+      left: 171px;
+      font-size: 12px;
+  }
+}
+  
+
+  @media(max-width:768px){
+    section{
+      display: contents;
+      color: black;
+      flex-direction: column;
+      margin-left: 330px;
+  
+      
+  }
+  .Services {
+      height: 24px;
+      width: 24px;
+      position: relative;
+      top: 4px;
+  }
+
+  section h1 {
+    color: #605c5c;
+    position: relative;
+    font-size: 20px;
+    margin-top: 1px;
+    left: 56px;
+    top: 15px;
+}
+    
+   h1::after { 
+      content: ""; /* Obligatorio para los seudoelementos */ 
+      position: absolute; /* Posiciona el seudoelemento con respecto al texto */ 
+      bottom: -11px; /* Mueve la línea un píxel hacia arriba para solapar la línea del texto */ 
+      left: 1px; /* Comienza la línea desde el inicio del texto */
+      width: 240%; /* Establece la longitud de la línea hasta la mitad del texto */
+      height: 8px; /* Grosor de la línea */
+      background-color: #c8fc94; /* Color de la línea */ 
+      
+    }
+    p {
+      margin-left: -24px;
+      color: #000000;
+      position: relative;
+      left: 171px;
+      font-size: 12px;
+  }
+  }

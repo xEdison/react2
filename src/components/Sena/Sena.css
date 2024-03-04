@@ -1,0 +1,11 @@
+
+@media(max-width:768px){
+    .Sena {
+        position: relative;
+        box-shadow: 0 0 10px #39a900;
+        height: 7vh;
+        width: 8vw;
+        right: -15px;
+        top: -14px;
+    }
+}

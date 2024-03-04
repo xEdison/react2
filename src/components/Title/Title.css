@@ -1,0 +1,48 @@
+.title1 h1{
+    position: relative; /* Establece el posicionamiento relativo para poder posicionar el seudoelemento correctamente */
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 3px;
+  }
+  .title1 h1::after { 
+    content: ""; /* Obligatorio para los seudoelementos */ 
+    position: absolute; /* Posiciona el seudoelemento con respecto al texto */ 
+    bottom: -7px; /* Mueve la línea un píxel hacia arriba para solapar la línea del texto */ 
+    left: 65px; /* Comienza la línea desde el inicio del texto */
+    width: 59%; /* Establece la longitud de la línea hasta la mitad del texto */
+    height: 5px; /* Grosor de la línea */
+    background-color: rgb(255, 255, 255); /* Color de la línea */ 
+    
+  }
+  @media(max-width:1279px){
+  .title1 h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: -2px;
+}
+
+}
+@media(max-width:920px){
+  .title1 h1::after{
+    left: 40px;
+  }
+}
+@media(max-width:768px){
+  .title1 h1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 23px;
+    margin-top: -54px;
+    left: 180px;
+}
+.title1 h1::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: -5px;
+  width: 104%;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+}
+}

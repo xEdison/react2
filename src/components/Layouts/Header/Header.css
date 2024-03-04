@@ -1,0 +1,39 @@
+header{
+position: fixed;
+    display: flex;
+    height: 100%;
+    display: flex;
+    background-color: #39a900;  
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+  
+  }
+  img{
+    height: 22vh;
+    width: 11vw;
+    border-radius: 50%;
+    
+    top: 100px;
+
+   }
+
+   @media(max-width:768px){
+    header{
+      position: absolute;
+          display: flex;
+          height: 20%;
+          background-color: #39a900;  
+          width: 100%;
+          flex-direction: row;
+        
+        }
+        img{
+          height: 22vh;
+          width: 11vw;
+          border-radius: 50%;
+          
+          top: 100px;
+      
+         }
+   }
